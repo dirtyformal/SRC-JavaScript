@@ -131,6 +131,6 @@ dist
 
 # Parcel Files
 
-/dist/
+dist/
 .parcel-cache
-/node_modules/
+node_modules/
