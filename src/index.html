@@ -7,11 +7,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" />
   <script type="module" src="app.js"></script>
-  <title>Document</title>
+  <title>Standard Route Tool</title>
 </head>
 
-<body>
-  <h1>Hello</h1>
+<body class="bg-slate-200">
+  <div class="w-full bg-sky-800 text-white px-5">
+    <div class="max-w-7xl m-auto py-5 flex items-end">
+      <div class="font-semibold text-xl">Standard Route Generator</div>
+      <div class="italic pl-2">but in JavaScript</div>
+    </div>
+  </div>
+
+  <section class="w-full p-5">
+    <div class="grid overflow-hidden grid-cols-6 grid-rows-4 gap-2">
+      <div class="box row-start-1 col-start-1 col-span-2 p-1">
+        Route Desig
+      </div>
+
+      <div class="box row-start-2 p-1">
+        <label for="icaoFrom" class="block mb-2 text-sm font-medium text-gray-900">ICAO from:</label>
+        <input type="text" id="icaoFrom" placeholder="AA"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
+      </div>
+
+      <div class="box row-start-2 p-1">
+        <label for="icaoTo" class="block mb-2 text-sm font-medium text-gray-900">ICAO to:</label>
+        <input type="text" id="icaoTo"
+          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
+      </div>
+
+      <div class="box row-span-2 col-start-3 col-span-4 p-1">
+        Routing Input
+      </div>
+
+      <div class="box row-start-3 row-span-2 col-start-1 col-span-2 p-1">
+        Control Box
+      </div>
+
+      <div class="box row-start-3 row-span-2 col-start-3 col-span-4 p-1">
+        Route Output
+      </div>
+    </div>
+  </section>
+
+
+
+
 </body>
 
 </html>

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.box {
+  @apply text-gray-800 min-w-full h-28 min-h-full rounded bg-slate-300 align-middle;
+}
