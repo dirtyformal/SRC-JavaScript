@@ -11,43 +11,93 @@
 </head>
 
 <body class="bg-slate-200">
-  <div class="w-full bg-sky-800 text-white px-5">
+  <div class="w-full bg-sky-800 text-white px-5 flex justify-between">
     <div class="max-w-7xl m-auto py-5 flex items-end">
       <div class="font-semibold text-xl">Standard Route Generator</div>
       <div class="italic pl-2">but in JavaScript</div>
     </div>
+
+    <div class="max-w-7xl m-auto py-5 flex justify-end">
+      <div class="italic pl-2" id="currentCycle">but in JavaScript</div>
+    </div>
   </div>
 
   <section class="w-full p-5">
-    <div class="grid overflow-hidden grid-cols-6 grid-rows-4 gap-2">
-      <div class="box row-start-1 col-start-1 col-span-2 p-1">
-        Route Desig
-      </div>
+    <form>
+      <div class="grid overflow-hidden grid-cols-6 grid-rows-4 gap-2">
+        <div class="box col-span-2 p-2">
+          <div class="h-full w-full">
+            <label for="routeDesig" class="block mb-2 font-medium text-gray-900">Route Designator</label>
+            <input type="text" id="routeDesig" placeholder="AACH1"
+              class="h-[60%] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
+          </div>
+        </div>
 
-      <div class="box row-start-2 p-1">
-        <label for="icaoFrom" class="block mb-2 text-sm font-medium text-gray-900">ICAO from:</label>
-        <input type="text" id="icaoFrom" placeholder="AA"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
-      </div>
+        <div class="box col-span-2 p-2 flex space-x-2">
+          <div class="grow">
+            <label for="icaoFrom" class="block mb-2 font-medium text-gray-900">Departure ICAO</label>
+            <input type="text" id="icaoFrom" placeholder="AA" max="4"
+              class="h-[60%] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
+          </div>
+          <div class="grow">
+            <label for="icaoTo" class="block mb-2 font-medium text-gray-900">Arrival ICAO</label>
+            <input type="text" id="icaoTo" placeholder="CH" max="4"
+              class="h-[60%] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
+          </div>
+        </div>
 
-      <div class="box row-start-2 p-1">
-        <label for="icaoTo" class="block mb-2 text-sm font-medium text-gray-900">ICAO to:</label>
-        <input type="text" id="icaoTo"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
-      </div>
+        <div class="box col-span-2 p-2">
+          <div class="h-full w-full">
+            <label for="routeInput" class="block mb-2 font-medium text-gray-900">Route Input</label>
+            <input type="text" id="routeInput" placeholder="AACH1"
+              class="h-[60%] bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 w-full" />
+          </div>
+        </div>
 
-      <div class="box row-span-2 col-start-3 col-span-4 p-1">
-        Routing Input
-      </div>
+        <div class="box row-start-2 row-span-2 col-start-1 col-span-6 p-2">
+          <div class="w-full h-full" id="outputText">
 
-      <div class="box row-start-3 row-span-2 col-start-1 col-span-2 p-1">
-        Control Box
-      </div>
+            <!-- <div class="h-full w-full flex justify-center" id="placeholderText">
+              <h2 class="align-middle text-2xl italic mt-[5%] text-gray-600">Your results will appear here..</h2>
+            </div> -->
 
-      <div class="box row-start-3 row-span-2 col-start-3 col-span-4 p-1">
-        Route Output
+            <div class="p-3" id="outputMain">
+              <div class="flex items-end pb-2">
+                <h2 class="text-2xl font-semibold text-gray-700">Routing Output</h2>
+                <h4 class="pl-4 text-sm">click output field to copy data</h4>
+              </div>
+
+              <div class="relative">
+                <label for="routeDesigOutput"
+                  class="absolute h-[50px] w-[180px] bg-gray-200 font-semibold border-gray-300 border text-center leading-[50px] rounded-l-lg text-sms">Route
+                  Designator:</label>
+                <input type="text" id="routeDesigOutput" disabled placeholder="Output"
+                  class="h-[50px] w-[600px] bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 pl-[190px] cursor-not-allowed" />
+              </div>
+
+              <div class="relative">
+                <label for="routingOutput"
+                  class="absolute h-[50px] w-[180px] bg-gray-200 font-semibold border-gray-300 border text-center leading-[50px] rounded-l-lg text-sms">Routing:</label>
+                <input type="text" id="routingOutput" disabled placeholder="Output"
+                  class="h-[50px] w-[600px] bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 pl-[190px] cursor-not-allowed" />
+              </div>
+
+              <div class="relative">
+                <label for="remarksOutput"
+                  class="absolute h-[50px] w-[180px] bg-gray-200 font-semibold border-gray-300 border text-center leading-[50px] rounded-l-lg text-sms">Remarks:</label>
+                <input type="text" id="remarksOutput" disabled placeholder="Output"
+                  class="h-[50px] w-[600px] bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 p-2.5 pl-[190px] cursor-not-allowed" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box col-span-2 p-2">
+          <button class="py-4 px-6 bg-red-700 text-sky-100 font-semibold rounded-md" type="reset">Clear
+            all</button>
+        </div>
       </div>
-    </div>
+    </form>
   </section>
 
 

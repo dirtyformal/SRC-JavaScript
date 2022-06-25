@@ -1,0 +1,1386 @@
+{
+  "StandardRoutes": {
+    "CycleVersion": "2206",
+    "Airport": [
+      {
+        "Name": "AA",
+        "Route": [
+          {
+            "ID": "AACH1",
+            "Remarks": "FL240 and above",
+            "route": "H384 NP H252 NS Y288"
+          },
+          {
+            "ID": "AACH6",
+            "Remarks": "",
+            "route": "H384 NP Q137 VELGA Y894"
+          },
+          {
+            "ID": "AADN3",
+            "Remarks": "",
+            "route": "Y320 LAKAR Y874 MIPAK"
+          },
+          {
+            "ID": "AAGS3",
+            "Remarks": "",
+            "route": "H372 TULMI Y548 DABIP H328"
+          },
+          {
+            "ID": "AAGS4",
+            "Remarks": "",
+            "route": "H372 RO H328"
+          },
+          {
+            "ID": "AAGB2",
+            "Remarks": "",
+            "route": "Q136"
+          },
+          {
+            "ID": "AAHN1",
+            "Remarks": "",
+            "route": "H211"
+          },
+          {
+            "ID": "AAKT1",
+            "Remarks": "",
+            "route": "AA RWY 23L \u2014 G591 | AA RWY 05R \u2014 Q520 APABO Q659 PERAS G591"
+          },
+          {
+            "ID": "AAKK1",
+            "Remarks": "",
+            "route": "AA RWY 23L \u2014 G591 UKAPA Q797 | AA RWY 05R \u2014 Q520 SF H275"
+          },
+          {
+            "ID": "AANR2",
+            "Remarks": "",
+            "route": "H211 HN Y550 GENDA H211"
+          },
+          {
+            "ID": "AANR5",
+            "Remarks": "",
+            "route": "H211"
+          },
+          {
+            "ID": "AANS2",
+            "Remarks": "",
+            "route": "H384 NP H252"
+          },
+          {
+            "ID": "AANP1",
+            "Remarks": "",
+            "route": "H384 KARRL Y832 EKALI Y244"
+          },
+          {
+            "ID": "AANV1",
+            "Remarks": "Jets Only",
+            "route": "Y320 QN Q787"
+          },
+          {
+            "ID": "AANV5",
+            "Remarks": "Jets Only",
+            "route": "Y320 LAKAR Y628 UPNIX Y496 DUKOP Y676 NV"
+          },
+          {
+            "ID": "AAPM2",
+            "Remarks": "12,000 ft and above",
+            "route": "H211 LAKES Y666"
+          },
+          {
+            "ID": "AAPM4",
+            "Remarks": "10,000 ft and below",
+            "route": "H211 HN H325 TM H182 RUGVI H336"
+          },
+          {
+            "ID": "AAPP3",
+            "Remarks": "",
+            "route": "H384 KARRL Y506 TPAPA Y610"
+          },
+          {
+            "ID": "AAQN2",
+            "Remarks": "",
+            "route": "Y320"
+          },
+          {
+            "ID": "AAQN4",
+            "Remarks": "",
+            "route": "Y320 LAKAR Y628 UPNIX Y266"
+          },
+          {
+            "ID": "AARO1",
+            "Remarks": "",
+            "route": "H372"
+          },
+          {
+            "ID": "AAAP1",
+            "Remarks": "",
+            "route": "H211"
+          },
+          {
+            "ID": "AATG1",
+            "Remarks": "",
+            "route": "H372 TULMI H436"
+          },
+          {
+            "ID": "AAWU2",
+            "Remarks": "",
+            "route": "H211 HN H325 TM H247"
+          },
+          {
+            "ID": "AAWN1",
+            "Remarks": "Reach cleared level by 10NM prior to SILVO",
+            "route": "H384 KARRL Y506 TPAPA Y738"
+          },
+          {
+            "ID": "AAWK3",
+            "Remarks": "",
+            "route": "H372 TULMI H436 TG H117"
+          },
+          {
+            "ID": "AAWR3",
+            "Remarks": "",
+            "route": "AA RWY 23L \u2014 H460 KOPPA H441 SF | AA RWY 05R \u2014 H379 SF"
+          },
+          {
+            "ID": "AAWB3",
+            "Remarks": "",
+            "route": "H384 NP Y738 PADMU Y198 AKAVI Q566 IPMIR Q472"
+          }
+        ]
+      },
+      {
+        "Name": "DN",
+        "Route": [
+          {
+            "ID": "DNAA1",
+            "Remarks": "Jets Only; RNP 1 Required; For flights at FL260 or above, maintain FL250 to LADIS",
+            "route": "BIDEL Y477 CH Y175 OMKUN Y655 POKOM Q277"
+          },
+          {
+            "ID": "DNAA4",
+            "Remarks": "Non Jets; RNP 1 Required;For flights at FL260 or above,maintain FL250 to LADIS",
+            "route": "BIDEL Y477 CH H110 PORAM Y781 RIVTA Y523 GULOV Y175 OMKUN Y311 DADUK Y273 PEPPE H182"
+          },
+          {
+            "ID": "DNCH2",
+            "Remarks": "RNP 1 Required; For flights at FL260 or above, maintain FL250 to LADIS",
+            "route": "BIDEL Y477"
+          },
+          {
+            "ID": "DNNV2",
+            "Remarks": "RNP 1 Required; MFA 4000 ft",
+            "route": "AKPIN"
+          },
+          {
+            "ID": "DNNV5",
+            "Remarks": "",
+            "route": "BE H264"
+          },
+          {
+            "ID": "DNWN3",
+            "Remarks": "Jets Only; RNP 1 Required; FL260 and above: maintain FL250 to LADIS",
+            "route": "BIDEL Y477 LADIS Y727 WARDS Y393"
+          },
+          {
+            "ID": "DNWN5",
+            "Remarks": "Non Jets; RNP 1 Required; For flights at FL260 or above, maintain FL250 to LADIS",
+            "route": "BIDEL Y477 CH Y393"
+          }
+        ]
+      },
+      {
+        "Name": "GS",
+        "Route": [
+          {
+            "ID": "GSAA3",
+            "Remarks": "",
+            "route": "H117 NOBAR Q132 MERAS Q119"
+          },
+          {
+            "ID": "GSHN3",
+            "Remarks": "",
+            "route": "H328 RO H234 FALLS H114"
+          },
+          {
+            "ID": "GSHN4",
+            "Remarks": "",
+            "route": "H328"
+          },
+          {
+            "ID": "GSNR3",
+            "Remarks": "For flights at 10,000ft or above, cross 25 GS at MNM 9000ft",
+            "route": "H467"
+          },
+          {
+            "ID": "GSNR4",
+            "Remarks": "",
+            "route": "H386"
+          },
+          {
+            "ID": "GSWO2",
+            "Remarks": "",
+            "route": "H467"
+          },
+          {
+            "ID": "GSWN3",
+            "Remarks": "For flights at 10,000ft or above, cross 25 GS at MNM 9000ft",
+            "route": "H467 PM V242 DOGAD V112"
+          }
+        ]
+      },
+      {
+        "Name": "HN",
+        "Route": [
+          {
+            "ID": "HNAR2",
+            "Remarks": "",
+            "route": "AA RWY 23L \u2014 Auckland SKEPY2A Arrival | AA RWY 05R Auckland SCARY2B Arrival"
+          },
+          {
+            "ID": "HNAA2",
+            "Remarks": "",
+            "route": "AA RWY 23L \u2014 Auckland SKEPY2A Arrival | AA RWY 05R Auckland SCARY2B Arrival"
+          },
+          {
+            "ID": "HNCH3",
+            "Remarks": "FL240 and above",
+            "route": "H479 NP H252 NS Y288"
+          },
+          {
+            "ID": "HNCH5",
+            "Remarks": "MFA 10,000 ft",
+            "route": "Q126 LIKTU Y526 ALADA Y894"
+          },
+          {
+            "ID": "HNGS1",
+            "Remarks": "",
+            "route": "H328"
+          },
+          {
+            "ID": "HNNE3",
+            "Remarks": "",
+            "route": "WP RWY 03 \u2014 Q718 SURFY Q789 LIBKO | WP RWY 21 - Q401 MERAS Q741 HOOKS Q789 UPLIN"
+          },
+          {
+            "ID": "HNNR1",
+            "Remarks": "",
+            "route": "H211"
+          },
+          {
+            "ID": "HNNS3",
+            "Remarks": "",
+            "route": "H479 NP H252"
+          },
+          {
+            "ID": "HNNP2",
+            "Remarks": "",
+            "route": "H479"
+          },
+          {
+            "ID": "HNPM1",
+            "Remarks": "12,000 ft and above",
+            "route": "H325 DROPT Y666"
+          },
+          {
+            "ID": "HNPM4",
+            "Remarks": "10,000 ft and below",
+            "route": "H325 TM H182 RUGVI H336"
+          },
+          {
+            "ID": "HNRO2",
+            "Remarks": "",
+            "route": "H328"
+          },
+          {
+            "ID": "HNTG1",
+            "Remarks": "",
+            "route": "H105"
+          },
+          {
+            "ID": "HNTG4",
+            "Remarks": "",
+            "route": "H114"
+          },
+          {
+            "ID": "HNWK3",
+            "Remarks": "",
+            "route": "H328 RO H480"
+          },
+          {
+            "ID": "HNWU2",
+            "Remarks": "",
+            "route": "H325 TM H247"
+          },
+          {
+            "ID": "HNWN3",
+            "Remarks": "",
+            "route": "H325 PM V242 DOGAD V112"
+          },
+          {
+            "ID": "HNWN6",
+            "Remarks": "Available for use only when hazardous flight conditions exist north-east of Wellington",
+            "route": "H325 TM H247 WU Q367 LEDOR Y762 TPAPA Y738"
+          },
+          {
+            "ID": "HNWP2",
+            "Remarks": "AVBL RNAV and/or GNSS APV ACFT only",
+            "route": "WP RWY 03 \u2014 Q718 | WP RWY 21 \u2014 Q401 MERAS Q741"
+          }
+        ]
+      },
+      {
+        "Name": "NV",
+        "Route": [
+          {
+            "ID": "NVAA1",
+            "Remarks": "Jets Only",
+            "route": "Q787 QN Y569 LOVTA Y655 POKOM Q277"
+          },
+          {
+            "ID": "NVAA4",
+            "Remarks": "Jets Only;Available for use only when hazardous flight conditions exist\non the western route",
+            "route": "Y615 ELDAK Q196 CH Y175 OMKUN Y655 POKOM Q277"
+          },
+          {
+            "ID": "NVCH2",
+            "Remarks": "",
+            "route": "Y615 ELDAK Q196"
+          },
+          {
+            "ID": "NVDN2",
+            "Remarks": "RNP 1 required;MFA 5000 ft",
+            "route": "EPDAB"
+          },
+          {
+            "ID": "NVDN4",
+            "Remarks": "",
+            "route": "H264 BE"
+          },
+          {
+            "ID": "NVWN3",
+            "Remarks": "",
+            "route": "Y615 ELDAK Q196 CH Y393"
+          }
+        ]
+      },
+      {
+        "Name": "NS",
+        "Route": [
+          {
+            "ID": "NSAA1",
+            "Remarks": "",
+            "route": "RWY 02 \u2014 Q438 IGUTA Y175 OMKUN Y311 DADUK Y273 PEPPE H182 | RWY 20 \u2014 BIVER Y341 SEBRU Y655 OMKUN Y311 DADUK Y273 PEPPE H182"
+          },
+          {
+            "ID": "NSCH2",
+            "Remarks": "",
+            "route": "Q787 ALADA Y894"
+          },
+          {
+            "ID": "NSHN1",
+            "Remarks": "",
+            "route": "RWY 02 \u2014 Q438 IGUTA Y175 OPABI Q126 | RWY 20 \u2014 BIVER Y341 SEBRU Y655 OMKUN Y175 OPABI Q126"
+          },
+          {
+            "ID": "NSPM2",
+            "Remarks": "",
+            "route": "Q438 SNAPA Y501 DUMOT H240"
+          },
+          {
+            "ID": "NSPP3",
+            "Remarks": "",
+            "route": "H267 SIMZI Q388"
+          },
+          {
+            "ID": "NSWU2",
+            "Remarks": "",
+            "route": "RWY 02 \u2014 H240 DUMOT Q367 | RWY 20 \u2014 Q438 SNAPA Y501 DUMOT Q367"
+          },
+          {
+            "ID": "NSWN2",
+            "Remarks": "Non-RNAV aircraft expect radar vectors after SIMZI",
+            "route": "H267"
+          },
+          {
+            "ID": "NSWB3",
+            "Remarks": "",
+            "route": "H133"
+          }
+        ]
+      },
+      {
+        "Name": "NE",
+        "Route": {
+          "ID": "NEHN3",
+          "Remarks": "",
+          "route": "WP RWY 03 \u2014 UPLIN Q789 HOOKS Q741 MERAS Q401 | WP RWY 21 \u2014 LIBKO Q789 SURFY Q718"
+        }
+      },
+      {
+        "Name": "OH",
+        "Route": [
+          {
+            "ID": "OHAA1",
+            "Remarks": "Jets Only",
+            "route": "H352 WU Q647 DAGOM Y273 OMBUB Q102 OPABI Q277"
+          },
+          {
+            "ID": "OHAA4",
+            "Remarks": "Non Jets",
+            "route": "H352 WU Q647 DAGOM Y273 PEPPE H182"
+          },
+          {
+            "ID": "OHCH1",
+            "Remarks": "",
+            "route": "V468 ABTOL Y226 GURBO Q800 ATBUB H159"
+          },
+          {
+            "ID": "OHWN2",
+            "Remarks": "",
+            "route": "V112"
+          },
+          {
+            "ID": "OHWN5",
+            "Remarks": "Available for use also when hazardous flight conditions exist north-east of Wellington",
+            "route": "Q169 AVKEX Q235"
+          },
+          {
+            "ID": "OHWP1",
+            "Remarks": "Jets Only",
+            "route": "H352 WU Q647 DAGOM Y273 OMBUB Q102 OPABI Q277 AA H182"
+          },
+          {
+            "ID": "OHWP6",
+            "Remarks": "Non Jets",
+            "route": "H352 WU Q647 DAGOM Y273 PEPPE H182"
+          },
+          {
+            "ID": "OHWB1",
+            "Remarks": "",
+            "route": "Q169 AVKEX Q472"
+          }
+        ]
+      },
+      {
+        "Name": "PM",
+        "Route": [
+          {
+            "ID": "PMAA2",
+            "Remarks": "",
+            "route": "OMBUB Y273 PEPPE H182"
+          },
+          {
+            "ID": "PMAA5",
+            "Remarks": "",
+            "route": "H336 RUGVI H182"
+          },
+          {
+            "ID": "PMCH2",
+            "Remarks": "",
+            "route": "Y226 GURBO Q800 ATBUB H159"
+          },
+          {
+            "ID": "PMCH4",
+            "Remarks": "Available for use also when hazardous flight conditions exist north-east of Wellington",
+            "route": "H240 NS Y288"
+          },
+          {
+            "ID": "PMHN3",
+            "Remarks": "",
+            "route": "OMBUB Y273 LIKTU Q126"
+          },
+          {
+            "ID": "PMNR3",
+            "Remarks": "",
+            "route": "H240 IRMIX Q800 RIDLA H103"
+          },
+          {
+            "ID": "PMNS3",
+            "Remarks": "",
+            "route": "H240"
+          },
+          {
+            "ID": "PMNP1",
+            "Remarks": "",
+            "route": "H336 RUGVI H205"
+          },
+          {
+            "ID": "PMNP5",
+            "Remarks": "",
+            "route": "VIROL Q202 MEVAX H499"
+          },
+          {
+            "ID": "PMPP2",
+            "Remarks": "",
+            "route": "H467"
+          },
+          {
+            "ID": "PMWU3",
+            "Remarks": "",
+            "route": "H336 RUGVI H486"
+          },
+          {
+            "ID": "PMWN1",
+            "Remarks": "",
+            "route": "V242 DOGAD V112"
+          },
+          {
+            "ID": "PMWN4",
+            "Remarks": "Available for use also when hazardous flight conditions exist north-east of Wellington",
+            "route": "H201 KAPTI Q169 AVKEX Q235"
+          },
+          {
+            "ID": "PMWB3",
+            "Remarks": "",
+            "route": "H201 KAPTI Q169 AVKEX Q472"
+          }
+        ]
+      },
+      {
+        "Name": "PN",
+        "Route": {
+          "ID": "PNWN1",
+          "Remarks": "",
+          "route": "WN RWY 34 - Wellington IGMUL Arrival | WN RWY 16 - Wellington AVPOD Arrival"
+        }
+      },
+      {
+        "Name": "PP",
+        "Route": [
+          {
+            "ID": "PPAA3",
+            "Remarks": "",
+            "route": "H482 KAPTI Y273 PEPPE H182"
+          },
+          {
+            "ID": "PPCH1",
+            "Remarks": "",
+            "route": "H364 WN V306 SABDA Y622 MESIX H159"
+          },
+          {
+            "ID": "PPNS2",
+            "Remarks": "",
+            "route": "Q388 AVKEX Q235"
+          },
+          {
+            "ID": "PPPM1",
+            "Remarks": "",
+            "route": "H467"
+          },
+          {
+            "ID": "PPWB1",
+            "Remarks": "",
+            "route": "Q388 AVKEX Q294 AVPOD Q287"
+          }
+        ]
+      },
+      {
+        "Name": "QN",
+        "Route": [
+          {
+            "ID": "QNAA1",
+            "Remarks": "Jets Only",
+            "route": "Y569 LOVTA Y655 POKOM Q277"
+          },
+          {
+            "ID": "QNAA4",
+            "Remarks": "Non Jets",
+            "route": "Q787 NS Q438 IGUTA Y175 OMKUN Y311 DADUK Y273 PEPPE H182"
+          },
+          {
+            "ID": "QNCH1",
+            "Remarks": "",
+            "route": "Q787 TIMJO Y153"
+          },
+          {
+            "ID": "QNCH5",
+            "Remarks": "ACFT must accept a clearance and fly a published SID via ADLUP",
+            "route": "ADLUP Y615 ELDAK Q196"
+          },
+          {
+            "ID": "QNWN1",
+            "Remarks": "Jets Only",
+            "route": "Q787 TIMJO Y153 DOPKI Y533 GRETA Y393"
+          },
+          {
+            "ID": "QNWN6",
+            "Remarks": "Non Jets",
+            "route": "Q787 TIMJO Y153 CH Y393"
+          },
+          {
+            "ID": "QNWN7",
+            "Remarks": "ACFT must accept a clearance and fly a published SID via ADLUP",
+            "route": "ADLUP Y615 ELDAK Q196 CH Y393 WN"
+          }
+        ]
+      },
+      {
+        "Name": "RO",
+        "Route": [
+          {
+            "ID": "ROAA1",
+            "Remarks": "11,000 ft and above",
+            "route": "Y871 NOBAR Q132 MERAS Q119"
+          },
+          {
+            "ID": "ROAA6",
+            "Remarks": "9,000 ft and below",
+            "route": "Q119"
+          },
+          {
+            "ID": "ROCH3",
+            "Remarks": "11,000 ft and above",
+            "route": "Y640 CHUTE Y780 ABTOL Y226 GURBO Q800 ATBUB H159"
+          },
+          {
+            "ID": "ROCH4",
+            "Remarks": "",
+            "route": "H247 TM Q438 NS Q787 ALADA Y894"
+          },
+          {
+            "ID": "ROGS3",
+            "Remarks": "",
+            "route": "H328"
+          },
+          {
+            "ID": "ROHN3",
+            "Remarks": "",
+            "route": "H234 FALLS H114"
+          },
+          {
+            "ID": "ROTG2",
+            "Remarks": "",
+            "route": "H310"
+          },
+          {
+            "ID": "ROWN1",
+            "Remarks": "",
+            "route": "Y640 CHUTE Y780 TARUA H364 PM V242 DOGAD V112"
+          },
+          {
+            "ID": "ROWN5",
+            "Remarks": "Available for use also when hazardous flight conditions exist north-east of Wellington.",
+            "route": "H247 WU Q367 LEDOR Y762 TPAPA Y738"
+          }
+        ]
+      },
+      {
+        "Name": "AR",
+        "Route": {
+          "ID": "ARWR1",
+          "Remarks": "",
+          "route": "SATLA Q741 HOOKS Q789 UPLIN Q665 KAWAU Q520 SF"
+        }
+      },
+      {
+        "Name": "AP",
+        "Route": [
+          {
+            "ID": "APAA3",
+            "Remarks": "",
+            "route": "Y897 LEGER H182"
+          },
+          {
+            "ID": "APAA5",
+            "Remarks": "9000 ft and below",
+            "route": "H211"
+          },
+          {
+            "ID": "APWN2",
+            "Remarks": "",
+            "route": "H280 TARUA H364 PM V242 DOGAD V112"
+          },
+          {
+            "ID": "APWN6",
+            "Remarks": "Available for use also when hazardous flight conditions exist north-east of Wellington",
+            "route": "H191 TM H247 WU Q367 LEDOR Y762 TPAPA Y738"
+          }
+        ]
+      },
+      {
+        "Name": "TG",
+        "Route": [
+          {
+            "ID": "TGAA3",
+            "Remarks": "",
+            "route": "H117 NOBAR Q132 MERAS Q119"
+          },
+          {
+            "ID": "TGCH2",
+            "Remarks": "",
+            "route": "H310 RO Y640 CHUTE Y780 ABTOL Y226 GURBO Q800 ATBUB H159"
+          },
+          {
+            "ID": "TGGS3",
+            "Remarks": "",
+            "route": "H117"
+          },
+          {
+            "ID": "TGHN3",
+            "Remarks": "",
+            "route": "H114"
+          },
+          {
+            "ID": "TGRO2",
+            "Remarks": "",
+            "route": "H310"
+          },
+          {
+            "ID": "TGWN1",
+            "Remarks": "",
+            "route": "H310 RO Y640 CHUTE Y780 TARUA H364 PM V242 DOGAD V112"
+          },
+          {
+            "ID": "TGWN5",
+            "Remarks": "Available for use also when hazardous flight conditions exist north-east of Wellington",
+            "route": "H310 RO H247 WU Q367 LEDOR Y762 TPAPA Y738"
+          }
+        ]
+      },
+      {
+        "Name": "TU",
+        "Route": [
+          {
+            "ID": "TUCH1",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to ELDAK",
+            "route": "Q196"
+          },
+          {
+            "ID": "TUWN2",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to ELDAK",
+            "route": "Q196 CH Y393"
+          }
+        ]
+      },
+      {
+        "Name": "WS",
+        "Route": {
+          "ID": "WSWN2",
+          "Remarks": "Non-RNAV aircraft expect radar vectors after SIMZI",
+          "route": "H267"
+        }
+      },
+      {
+        "Name": "WF",
+        "Route": {
+          "ID": "WFCH2",
+          "Remarks": "",
+          "route": "TIMJO Y153 CH"
+        }
+      },
+      {
+        "Name": "WU",
+        "Route": [
+          {
+            "ID": "WUAA1",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU",
+            "route": "Q647 DAGOM Y273 PEPPE H182"
+          },
+          {
+            "ID": "WUHN3",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU",
+            "route": "Q647 DAGOM Y273 LIKTU Q126"
+          },
+          {
+            "ID": "WUPM2",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU",
+            "route": "H486 RUGVI H336"
+          },
+          {
+            "ID": "WUNS1",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU",
+            "route": "Q367 DUMOT H240"
+          },
+          {
+            "ID": "WUNP1",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to MEVAX",
+            "route": "H486 MEVAX H499"
+          },
+          {
+            "ID": "WUWN3",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 WU",
+            "route": "Q367 LEDOR Y762 TPAPA Y738"
+          }
+        ]
+      },
+      {
+        "Name": "WR",
+        "Route": [
+          {
+            "ID": "WRAR2",
+            "Remarks": "RNAV 1 GNSS Required",
+            "route": "AA RWY 23L \u2014 Auckland APABO3A Arrival | AA RWY 05R --Auckland UKAPA3B Arrival"
+          },
+          {
+            "ID": "WRAA2",
+            "Remarks": "RNAV 1 GNSS Required",
+            "route": "AA RWY 23L \u2014 Auckland APABO3A Arrival | AA RWY 05R \u2014 Auckland UKAPA3B Arrival"
+          },
+          {
+            "ID": "WRWN3",
+            "Remarks": "Reach cleared level by 10 NM prior to SILVO",
+            "route": "SF H379 AA H384 KARRL Y506 TPAPA Y738"
+          }
+        ]
+      },
+      {
+        "Name": "WP",
+        "Route": [
+          {
+            "ID": "WPCH1",
+            "Remarks": "FL240 and above",
+            "route": "H182 AA H384 NP H252 NS Y288"
+          },
+          {
+            "ID": "WPCH6",
+            "Remarks": "",
+            "route": "H182 AA H384 NP Q137 VELGA Y894"
+          },
+          {
+            "ID": "WPHN2",
+            "Remarks": "AVBL RNAV and/or GNSS APV ACFT only",
+            "route": "WP RWY 03 \u2014 Q741 MERAS Q401 | WP RWY 21 \u2014 Q718"
+          },
+          {
+            "ID": "WPOH3",
+            "Remarks": "",
+            "route": "H182 AA H211 LAKES Y666 IDLUR"
+          },
+          {
+            "ID": "WPWN1",
+            "Remarks": "Reach cleared level by 10 NM prior to SILVO",
+            "route": "H182 AA H384 KARRL Y506 TPAPA Y738"
+          }
+        ]
+      },
+      {
+        "Name": "WB",
+        "Route": [
+          {
+            "ID": "WBAA1",
+            "Remarks": "",
+            "route": "Q472 IPMIR Q566 AKAVI Y175 OMKUN Y311 DADUK Y273 PEPPE H182"
+          },
+          {
+            "ID": "WBCH3",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to ONOLA",
+            "route": "H157 WAIMA Q421 ONOLA V306 ATBUB H159"
+          },
+          {
+            "ID": "WBNR2",
+            "Remarks": "",
+            "route": "Q472 AVKEX Q169 KAPTI Q555 BINIT Y737 PM H201 RIDLA H103"
+          },
+          {
+            "ID": "WBNS1",
+            "Remarks": "",
+            "route": "H133"
+          },
+          {
+            "ID": "WBOH3",
+            "Remarks": "",
+            "route": "Q472 AVKEX Q169 KAPTI Q555 BINIT H467 FOXTN H313"
+          },
+          {
+            "ID": "WBPM2",
+            "Remarks": "",
+            "route": "Q472 AVKEX Q169 KAPTI H201"
+          },
+          {
+            "ID": "WBPP1",
+            "Remarks": "",
+            "route": "Q287 AVPOD Q294 AVKEX Q388"
+          },
+          {
+            "ID": "WBWN1",
+            "Remarks": "",
+            "route": "WN RWY 34 \u2014 Wellington SULRI Arrival | WN RWY 16 \u2014 Wellington AVPOD Arrival"
+          }
+        ]
+      },
+      {
+        "Name": "WK",
+        "Route": [
+          {
+            "ID": "WKAA2",
+            "Remarks": "",
+            "route": "H117 NOBAR Q132 MERAS Q119"
+          },
+          {
+            "ID": "WKHN3",
+            "Remarks": "",
+            "route": "H480 RO H234 FALLS H114"
+          },
+          {
+            "ID": "WKWN1",
+            "Remarks": "",
+            "route": "Y780 TARUA H364 PM V242 DOGAD V112"
+          }
+        ]
+      },
+      {
+        "Name": "NP",
+        "Route": [
+          {
+            "ID": "NPAA3",
+            "Remarks": "For flights at 10,000 ft or above, maintain 9000 ft to DADUK",
+            "route": "H479 DADUK Y273 PEPPE H182"
+          },
+          {
+            "ID": "NPCH1",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to PEDBO",
+            "route": "NP RWY 05 \u2014 Y738 DAPNO Q335 PEDPO Y894 | NP RWY 23 \u2014 Q137 VELGA Y894"
+          },
+          {
+            "ID": "NPHN2",
+            "Remarks": "",
+            "route": "H479"
+          },
+          {
+            "ID": "NPPM3",
+            "Remarks": "",
+            "route": "H205 RUGVI H336"
+          },
+          {
+            "ID": "NPPM4",
+            "Remarks": "",
+            "route": "H499 MEVAX Q202 VIROL"
+          },
+          {
+            "ID": "NPPM7",
+            "Remarks": "For use when G351 is active",
+            "route": "VELGA Q518 MEVAX Q202 VIROL"
+          },
+          {
+            "ID": "NPWU1",
+            "Remarks": "",
+            "route": "H499 MEVAX H486"
+          },
+          {
+            "ID": "NPWN1",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to PADMU",
+            "route": "Y738"
+          },
+          {
+            "ID": "NPWN5",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to PADMU",
+            "route": "VELGA Q518 PADMU Y738"
+          },
+          {
+            "ID": "NPWU4",
+            "Remarks": "For use when G351 is active",
+            "route": "VELGA Q518 MEVAX H486"
+          }
+        ]
+      },
+      {
+        "Name": "NR",
+        "Route": [
+          {
+            "ID": "NRAA2",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H372 MOOSE Y601 NOBAR Q132 MERAS Q119"
+          },
+          {
+            "ID": "NRCH2",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H429 PM Y226 GURBO Q800 ATBUB H159"
+          },
+          {
+            "ID": "NRGS2",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H467"
+          },
+          {
+            "ID": "NRGS5",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H386"
+          },
+          {
+            "ID": "NRHN1",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H372 RO H234 FALLS H114"
+          },
+          {
+            "ID": "NRPM2",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H429 SELDU H297 APITI H364"
+          },
+          {
+            "ID": "NRPM4",
+            "Remarks": "9000 ft or below",
+            "route": "H240"
+          },
+          {
+            "ID": "NRWO3",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H467"
+          },
+          {
+            "ID": "NRWN3",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H429 PM V242 DOGAD V112"
+          },
+          {
+            "ID": "NRWN4",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR; Available for use only when hazardous flight conditions exist north-east of Wellington.",
+            "route": "H429 PM H201 KAPTI Q169 AVKEX Q235"
+          },
+          {
+            "ID": "NRWB3",
+            "Remarks": "For flights at 11,000 ft or above, maintain 10,000 ft to 30 NR",
+            "route": "H429 PM V242 DOGAD V112 WN Q100"
+          }
+        ]
+      },
+      {
+        "Name": "MC",
+        "Route": {
+          "ID": "MCCH3",
+          "Remarks": "",
+          "route": "MAMUS Y735 DOPKI Y153"
+        }
+      },
+      {
+        "Name": "KK",
+        "Route": {
+          "ID": "KKAA1",
+          "Remarks": "RNAV 1 GNSS Required",
+          "route": "AA RWY 23L \u2014 Auckland APABO3A Arrival | AA RWY 05R \u2014 Auckland UKAPA3B Arrival"
+        }
+      },
+      {
+        "Name": "KT",
+        "Route": {
+          "ID": "KTAA2",
+          "Remarks": "RNAV 1 GNSS Required",
+          "route": "AA RWY 23L \u2014 G591 PERAS then Auckland APABO3A Arrival | AA RWY 05R \u2014 G591 PERAS then Auckland UKAPA3B Arrival"
+        }
+      },
+      {
+        "Name": "CH",
+        "Route": [
+          {
+            "ID": "CHAA1",
+            "Remarks": "Jets Only",
+            "route": "Y175 OMKUN Y655 POKOM Q277"
+          },
+          {
+            "ID": "CHAA6",
+            "Remarks": "Non Jets",
+            "route": "H110 PORAM Y781 RIVTA Y523 GULOV Y175 OMKUN Y311 DADUK Y273 PEPPE H182"
+          },
+          {
+            "ID": "CHCI1",
+            "Remarks": "",
+            "route": "Q854"
+          },
+          {
+            "ID": "CHDN1",
+            "Remarks": "",
+            "route": "Y714 IDARA Y814 MIPAK"
+          },
+          {
+            "ID": "CHHN3",
+            "Remarks": "Jets Only",
+            "route": "Y175 OPABI Q126"
+          },
+          {
+            "ID": "CHHN5",
+            "Remarks": "Non Jets",
+            "route": "H110 PORAM Y781 RIVTA Y523 GULOV Y175 OPABI Q126"
+          },
+          {
+            "ID": "CHHK3",
+            "Remarks": "",
+            "route": "Q309"
+          },
+          {
+            "ID": "CHNV3",
+            "Remarks": "",
+            "route": "Y714 IDARA Y676"
+          },
+          {
+            "ID": "CHMC1",
+            "Remarks": "",
+            "route": "Y266 SUNAR Q360 MAMUS"
+          },
+          {
+            "ID": "CHNR1",
+            "Remarks": "Jets Only",
+            "route": "Y393 OMDOX Y465 KAMET H467 BINIT Y737 PM H201 RIDLA H103"
+          },
+          {
+            "ID": "CHNR6",
+            "Remarks": "Non Jets",
+            "route": "Y819 AGSOP Y737 PM H201 RIDLA H103"
+          },
+          {
+            "ID": "CHNS1",
+            "Remarks": "",
+            "route": "H110 PORAM Y781 BISEB H110"
+          },
+          {
+            "ID": "CHNP1",
+            "Remarks": "",
+            "route": "H110 PORAM Y781 RIVTA Y523 GULOV Y175 OMKUN H499"
+          },
+          {
+            "ID": "CHOH3",
+            "Remarks": "Jets Only",
+            "route": "Y393 OMDOX Y465 KAMET H467 BINIT"
+          },
+          {
+            "ID": "CHOH5",
+            "Remarks": "Non Jets",
+            "route": "Y819 AGSOP Y737 BINIT"
+          },
+          {
+            "ID": "CHPM3",
+            "Remarks": "Jets Only",
+            "route": "Y393 OMDOX Y465 KAMET H467 BINIT Y737"
+          },
+          {
+            "ID": "CHPM5",
+            "Remarks": "Non Jets",
+            "route": "Y819 AGSOP Y737"
+          },
+          {
+            "ID": "CHPP2",
+            "Remarks": "",
+            "route": "Y819 AGSOP Y295"
+          },
+          {
+            "ID": "CHQN3",
+            "Remarks": "",
+            "route": "Y266"
+          },
+          {
+            "ID": "CHRO2",
+            "Remarks": "Jets Only;FL250 and above",
+            "route": "Y393 OMDOX Y465 KAMET H467 FOXTN H313 OH H182 ARETI Y539"
+          },
+          {
+            "ID": "CHRO6",
+            "Remarks": "Non Jets",
+            "route": "Y819 AGSOP Y737 GOPRO H482 KAPTI Y273 DAGOM Y715 ARETI Y539"
+          },
+          {
+            "ID": "CHTG1",
+            "Remarks": "Jets Only;FL250 and above",
+            "route": "Y393 OMDOX Y465 KAMET H467 FOXTN H313 OH H182 ARETI Y539 PARRA Y505"
+          },
+          {
+            "ID": "CHTG6",
+            "Remarks": "Non Jets",
+            "route": "Y819 AGSOP Y737 GOPRO H482 KAPTI Y273 DAGOM Y715 ARETI Y539 PARRA Y505"
+          },
+          {
+            "ID": "CHTU3",
+            "Remarks": "",
+            "route": "Q196"
+          },
+          {
+            "ID": "CHWF2",
+            "Remarks": "",
+            "route": "CH Y266 ELRUV"
+          },
+          {
+            "ID": "CHWN1",
+            "Remarks": "",
+            "route": "Y393"
+          },
+          {
+            "ID": "CHWN9",
+            "Remarks": "10,000 ft or below",
+            "route": "H424 GOOSE V306 ONOLA Q421 OMDOX Y393"
+          },
+          {
+            "ID": "CHWP1",
+            "Remarks": "Jets Only",
+            "route": "Y175 OMKUN Y655 POKOM Q277 AA H182"
+          },
+          {
+            "ID": "CHWP6",
+            "Remarks": "Non Jets",
+            "route": "H110 PORAM Y781 RIVTA Y523 GULOV Y175 OMKUN Y311 DADUK Y273 PEPPE H182"
+          },
+          {
+            "ID": "CHWB1",
+            "Remarks": "",
+            "route": "Y819 ELPIT H157"
+          }
+        ]
+      },
+      {
+        "Name": "WN",
+        "Route": [
+          {
+            "ID": "WNAA2",
+            "Remarks": "Jets Only",
+            "route": "Y127 OPABI Q277"
+          },
+          {
+            "ID": "WNAA4",
+            "Remarks": "Non Jets",
+            "route": "Y127 OPABI Q126 LIKTU Y273 PEPPE H182"
+          },
+          {
+            "ID": "WNAA7",
+            "Remarks": "",
+            "route": "KAMET H467 FOXTN H313 OH H182 ARETI Y539 PARRA Y505 TG H117 NOBAR"
+          },
+          {
+            "ID": "WNCI2",
+            "Remarks": "",
+            "route": "Q611"
+          },
+          {
+            "ID": "WNCH3",
+            "Remarks": "",
+            "route": "V306 SABDA Y622 MESIX H159"
+          },
+          {
+            "ID": "WNCH6",
+            "Remarks": "",
+            "route": "H159"
+          },
+          {
+            "ID": "WNDN1",
+            "Remarks": "",
+            "route": "V306 SABDA Y622 MESIX Y676 IDARA Y814 MIPAK"
+          },
+          {
+            "ID": "WNDN9",
+            "Remarks": "",
+            "route": "H159 CH Y714 IDARA Y814 MIPAK Q852 SW"
+          },
+          {
+            "ID": "WNGS3",
+            "Remarks": "",
+            "route": "KAMET H467 BINIT Y737 PM H467"
+          },
+          {
+            "ID": "WNHN2",
+            "Remarks": "",
+            "route": "KAPTI Y273 LIKTU Q126"
+          },
+          {
+            "ID": "WNHN7",
+            "Remarks": "",
+            "route": "KAPTI Y273 DAGOM Y715 ARETI Y539 RO H234 FALLS H114 GODOK"
+          },
+          {
+            "ID": "WNHS2",
+            "Remarks": "",
+            "route": "KAMET H467 BINIT Y737 PM H201 OPAPA"
+          },
+          {
+            "ID": "WNNV2",
+            "Remarks": "",
+            "route": "V306 SABDA Y622 MESIX Y676"
+          },
+          {
+            "ID": "WNNV6",
+            "Remarks": "",
+            "route": "H159 MESIX Y676"
+          },
+          {
+            "ID": "WNNR1",
+            "Remarks": "",
+            "route": "KAMET H467 BINIT Y737 PM H201 RIDLA H103"
+          },
+          {
+            "ID": "WNNS1",
+            "Remarks": "",
+            "route": "RWY 34 \u2014 NULKO Q235 | RWY 16 \u2014 LUBSI H133"
+          },
+          {
+            "ID": "WNNP3",
+            "Remarks": "",
+            "route": "H499"
+          },
+          {
+            "ID": "WNOH2",
+            "Remarks": "",
+            "route": "KAMET H467 BINIT"
+          },
+          {
+            "ID": "WNPM1",
+            "Remarks": "",
+            "route": "KAMET H467 BINIT Y737"
+          },
+          {
+            "ID": "WNPN3",
+            "Remarks": "",
+            "route": "RWY 34 \u2014 AVPOD | RWY 16 \u2014 Q100"
+          },
+          {
+            "ID": "WNQN3",
+            "Remarks": "",
+            "route": "V306 SABDA Y622 MESIX H159 CH Y266"
+          },
+          {
+            "ID": "WNRO1",
+            "Remarks": "",
+            "route": "KAPTI Y273 DAGOM Y715 ARETI Y539"
+          },
+          {
+            "ID": "WNAP3",
+            "Remarks": "",
+            "route": "KAPTI Y273 DAGOM Y715 ARETI H116"
+          },
+          {
+            "ID": "WNTG1",
+            "Remarks": "",
+            "route": "KAPTI Y273 DAGOM Y715 ARETI Y539 PARRA Y505"
+          },
+          {
+            "ID": "WNTU1",
+            "Remarks": "",
+            "route": "V306 SABDA Y622 MESIX H159 CH Q196"
+          },
+          {
+            "ID": "WNWU3",
+            "Remarks": "",
+            "route": "KAPTI H482"
+          },
+          {
+            "ID": "WNWS1",
+            "Remarks": "",
+            "route": "RWY 34 \u2014 NULKO Q235 BOLOX H463 NS H267 | RWY 16 \u2014 LUBSI H133 NS H267"
+          },
+          {
+            "ID": "WNWK3",
+            "Remarks": "",
+            "route": "KAPTI Y273 DAGOM Y715 ARETI Y539 RO H480"
+          },
+          {
+            "ID": "WNWR1",
+            "Remarks": "",
+            "route": "Y127 OPABI Q126 LIKTU Y273 PEPPE H182 AA H379 SF"
+          },
+          {
+            "ID": "WNWP2",
+            "Remarks": "Jets Only",
+            "route": "Y127 OPABI Q277 AA H182"
+          },
+          {
+            "ID": "WNWP6",
+            "Remarks": "Non Jets",
+            "route": "Y127 OPABI Q126 LIKTU Y273 PEPPE H182"
+          },
+          {
+            "ID": "WNWP9",
+            "Remarks": "Jets Only",
+            "route": "KAMET H467 FOXTN H313 OH H182 ARETI Y539 PARRA Y505 TG H117 NOBAR Q132 MERAS Q119 AA H182"
+          },
+          {
+            "ID": "WNWB3",
+            "Remarks": "",
+            "route": "RWY 34 \u2014 AVPOD | RWY 16 \u2014 Q100"
+          }
+        ]
+      }
+    ]
+  }
+}
