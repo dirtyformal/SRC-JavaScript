@@ -13,3 +13,4 @@ If you're having a peek at this code, and noticed that I can improve on my code,
   - Decide what I'm going to do with the routing input function.
   - Implement a proper render handler that can both handle the single return from the RouteDesig lookup *and* the multiple array returns from the ICAO From/To resolver.
   - Probably some other stuff I've forgotten.
+  - Set up a GitHub workflow to auto-FTP to dirtyformal.dev on commit.
